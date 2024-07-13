@@ -1,4 +1,4 @@
-@import "../../node_modules/normalize.css/normalize.css";
+@import "../../../node_modules/normalize.css/normalize.css";
 @import "./main.css";
 @import "./fonts.css";
 @import "./utils.css";
@@ -9,4 +9,4 @@
 @import "./skillset.css";
 @import "./studies.css";
 @import "./contact.css";
-@import "../../node_modules/eins-modal/dist/css/eins-modal.min.css";
+@import "../../../node_modules/eins-modal/dist/css/eins-modal.min.css";

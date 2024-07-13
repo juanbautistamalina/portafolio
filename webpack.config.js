@@ -7,7 +7,7 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 module.exports = {
     mode: 'development',
-    entry: ['./index.js'],
+    entry: ['./src/index.js'],
     output: {
         filename: '[name].[contenthash].js',
         path: path.resolve(__dirname, "dist"),
@@ -19,7 +19,7 @@ module.exports = {
         new CleanWebpackPlugin({
             cleanStaleWebpackAssets: false
         }),
-        new HtmlWebpackPlugin({ template: './index.html' })
+        new HtmlWebpackPlugin({ template: './src/index.html' })
     ],
     module: {
         rules: [
@@ -49,5 +49,4 @@ module.exports = {
             new TerserPlugin()
         ]
     },
-
 }
