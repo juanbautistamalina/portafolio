@@ -8,3 +8,31 @@
 }
 
 
+@media (max-width: 768px){
+    body {
+        font-size: 12px !important;/* Reducir el tamaño de fuente para pantallas pequeñas */ 
+    }
+
+    main {
+        padding: 0 20px !important; /* Añadir espaciado lateral */
+    }
+
+    #portfolio button {
+        max-width: 100% !important; /* Ajustar ancho máximo de los botones del portafolio */
+    }
+
+    #portfolio img {
+        height: auto !important; /* Ajustar altura de las imágenes del portafolio */
+    }
+
+    #skillset > div {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)) !important; /* Ajustar grid de habilidades */
+    }
+
+    #study > div {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: space-around !important; /* Ajustar distribución de elementos de formación */
+    }
+
+}
