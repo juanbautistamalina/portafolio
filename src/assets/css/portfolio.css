@@ -58,14 +58,14 @@
     opacity: 1;
 }
 
-#portfolio button:after{
-    content: url(../img/icons/zoom.svg);
+#portfolio button:after {
+    content: url(../img/icons/github-original.svg);
     width: 50%;
     position: absolute;
     z-index: 2;
     left: 50%;
-    top: 0%;
-    transform: translate(-40%, -50%);
+    top: 50%;
+    transform: translate(-50%, -50%);
     opacity: 0;
     transition: top ease .3s, opacity ease .3s;
 }

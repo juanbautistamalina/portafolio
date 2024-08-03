@@ -2,6 +2,10 @@
 function openGitHubRepo(projectName) {
     let repoUrls = {
         "To Do List": "https://github.com/juanbautistamalina/to-do-list",
+        "Notas App": "https://github.com/juanbautistamalina/notes-app",
+        "Clima App": "https://github.com/juanbautistamalina/weather-app",
+        "Generador de Contraseñas": "https://github.com/juanbautistamalina/password-generator",
+        "Cronómetro": "https://github.com/juanbautistamalina/chronometer",
         "Tarjetas Añadibles": "https://github.com/juanbautistamalina/card-builder",
         "Landing Page Running": "https://github.com/juanbautistamalina/freeCodeCamp-responsive-web-design-projects/tree/main/Landing%20Page",
         "Web de Gimnasio": "https://github.com/juanbautistamalina/Gimnasio-Forte",
