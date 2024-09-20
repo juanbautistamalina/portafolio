@@ -1,16 +1,16 @@
 // Función para redirigir a los repositorios de GitHub
 function openGitHubRepo(projectName) {
     let repoUrls = {
+        "Smartwatch": "https://github.com/juanbautistamalina/smartwatch",
+        "Página de Producto": "https://github.com/juanbautistamalina/product-page",
+        "Reproductor de Música": "https://github.com/juanbautistamalina/music-player",
+        "Web de Perros": "https://github.com/juanbautistamalina/perros-a-la-vista",
+        "Landing Page Running": "https://github.com/juanbautistamalina/freeCodeCamp-responsive-web-design-projects/tree/main/Landing%20Page",
+        "Web de Gimnasio": "https://github.com/juanbautistamalina/Gimnasio-Forte",
         "To Do List": "https://github.com/juanbautistamalina/to-do-list",
         "Notas App": "https://github.com/juanbautistamalina/notes-app",
         "Clima App": "https://github.com/juanbautistamalina/weather-app",
-        "Generador de Contraseñas": "https://github.com/juanbautistamalina/password-generator",
-        "Cronómetro": "https://github.com/juanbautistamalina/chronometer",
-        "Tarjetas Añadibles": "https://github.com/juanbautistamalina/card-builder",
-        "Landing Page Running": "https://github.com/juanbautistamalina/freeCodeCamp-responsive-web-design-projects/tree/main/Landing%20Page",
-        "Web de Gimnasio": "https://github.com/juanbautistamalina/Gimnasio-Forte",
-        "Web de Homenaje": "https://github.com/juanbautistamalina/freeCodeCamp-responsive-web-design-projects/tree/main/Homenaje",
-        "Encuesta de Desarrollo Personal": "https://github.com/juanbautistamalina/freeCodeCamp-responsive-web-design-projects/tree/main/Encuesta"
+        "Generador de Contraseñas": "https://github.com/juanbautistamalina/password-generator"
     };
 
     if (repoUrls.hasOwnProperty(projectName)) {

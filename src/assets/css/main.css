@@ -1,15 +1,16 @@
 /* Variables de Colores */
 :root {
-    --primary: #a83232; 
-    --primary-dark: #801515; 
-    --secondary: #cc4a4a; 
-    --secondary-dark: #b33a3a; 
-    --white: #f5f9fa; 
-    --white2: #ebf3f5; 
-    --gray: #e1e4e5; 
-    --gray2: #c0c6c9; 
-    --gray3: #4b4c4d; 
-    --black: #323333; 
-    --black2: #2a2b2b; 
-    --black3: #0a0a0a;
+    --primary: #1F1F1F; /* Negro suave para el fondo */
+    --primary-dark: #0D0D0D; /* Negro profundo para áreas destacadas */
+    --secondary: #4A4A4A; /* Gris oscuro para detalles */
+    --secondary-dark: #2E2E2E; /* Gris muy oscuro para contrastes */
+    --white: #F7F7F7; /* Blanco claro para texto */
+    --white2: #EAEAEA; /* Blanco con un toque gris */
+    --white3: #F0F0F0; /* Blanco suave adicional */
+    --gray: #B3B3B3; /* Gris claro para fondos secundarios */
+    --gray2: #8C8C8C; /* Gris medio para áreas intermedias */
+    --gray3: #666666; /* Gris oscuro para textos secundarios */
+    --black: #262626; /* Negro para títulos */
+    --black2: #1A1A1A; /* Negro para bordes y detalles finos */
+    --black3: #000000; /* Negro absoluto para acentos fuertes */
 }
